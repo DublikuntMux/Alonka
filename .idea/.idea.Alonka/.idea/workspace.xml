@@ -4,17 +4,9 @@
     <projectFile>Alonka.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="269d97ed-890b-4f70-b2c2-cac79ebf191c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alonka.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrabGame.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrabGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrabGame.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Effect.cs" afterDir="false" />
+    <list default="true" id="269d97ed-890b-4f70-b2c2-cac79ebf191c" name="Changes" comment="comint">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alonka.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Alonka.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,5 +98,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="comint" />
+    <option name="LAST_COMMIT_MESSAGE" value="comint" />
   </component>
 </project>
