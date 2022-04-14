@@ -1,6 +1,6 @@
 ﻿namespace Alonka
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -35,11 +35,12 @@
             this.TrashDestop = new System.Windows.Forms.Button();
             this.CrabGame = new System.Windows.Forms.Button();
             this.GDIPyloads = new System.Windows.Forms.Button();
+            this.sms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bsod
             // 
-            this.bsod.Location = new System.Drawing.Point(12, 57);
+            this.bsod.Location = new System.Drawing.Point(12, 362);
             this.bsod.Name = "bsod";
             this.bsod.Size = new System.Drawing.Size(258, 64);
             this.bsod.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // RegFuck
             // 
-            this.RegFuck.Location = new System.Drawing.Point(12, 127);
+            this.RegFuck.Location = new System.Drawing.Point(12, 12);
             this.RegFuck.Name = "RegFuck";
             this.RegFuck.Size = new System.Drawing.Size(258, 64);
             this.RegFuck.TabIndex = 1;
@@ -59,7 +60,7 @@
             // 
             // DelMBR
             // 
-            this.DelMBR.Location = new System.Drawing.Point(12, 197);
+            this.DelMBR.Location = new System.Drawing.Point(12, 82);
             this.DelMBR.Name = "DelMBR";
             this.DelMBR.Size = new System.Drawing.Size(258, 64);
             this.DelMBR.TabIndex = 2;
@@ -69,7 +70,7 @@
             // 
             // TrashDestop
             // 
-            this.TrashDestop.Location = new System.Drawing.Point(12, 267);
+            this.TrashDestop.Location = new System.Drawing.Point(12, 152);
             this.TrashDestop.Name = "TrashDestop";
             this.TrashDestop.Size = new System.Drawing.Size(258, 64);
             this.TrashDestop.TabIndex = 3;
@@ -79,7 +80,7 @@
             // 
             // CrabGame
             // 
-            this.CrabGame.Location = new System.Drawing.Point(12, 337);
+            this.CrabGame.Location = new System.Drawing.Point(12, 222);
             this.CrabGame.Name = "CrabGame";
             this.CrabGame.Size = new System.Drawing.Size(258, 64);
             this.CrabGame.TabIndex = 4;
@@ -89,7 +90,7 @@
             // 
             // GDIPyloads
             // 
-            this.GDIPyloads.Location = new System.Drawing.Point(12, 407);
+            this.GDIPyloads.Location = new System.Drawing.Point(12, 292);
             this.GDIPyloads.Name = "GDIPyloads";
             this.GDIPyloads.Size = new System.Drawing.Size(258, 64);
             this.GDIPyloads.TabIndex = 5;
@@ -97,11 +98,22 @@
             this.GDIPyloads.UseVisualStyleBackColor = true;
             this.GDIPyloads.Click += new System.EventHandler(this.button6_Click);
             // 
-            // Form1
+            // sms
+            // 
+            this.sms.Location = new System.Drawing.Point(12, 432);
+            this.sms.Name = "sms";
+            this.sms.Size = new System.Drawing.Size(258, 64);
+            this.sms.TabIndex = 6;
+            this.sms.Text = "SMS";
+            this.sms.UseVisualStyleBackColor = true;
+            this.sms.Click += new System.EventHandler(this.sms_Click);
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 558);
+            this.ClientSize = new System.Drawing.Size(282, 516);
+            this.Controls.Add(this.sms);
             this.Controls.Add(this.GDIPyloads);
             this.Controls.Add(this.CrabGame);
             this.Controls.Add(this.TrashDestop);
@@ -109,11 +121,13 @@
             this.Controls.Add(this.RegFuck);
             this.Controls.Add(this.bsod);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.ShowIcon = false;
             this.Text = "Alenka tool";
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button sms;
 
         private System.Windows.Forms.Button bsod;
         private System.Windows.Forms.Button RegFuck;

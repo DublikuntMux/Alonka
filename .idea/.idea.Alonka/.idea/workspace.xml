@@ -4,9 +4,18 @@
     <projectFile>Alonka.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="269d97ed-890b-4f70-b2c2-cac79ebf191c" name="Changes" comment="comint">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="269d97ed-890b-4f70-b2c2-cac79ebf191c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Popup.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Popup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Popup.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alonka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alonka.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Alonka.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrabGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrabGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Effect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Effect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Main.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +87,10 @@
       <workItem from="1649511398041" duration="1594000" />
       <workItem from="1649515777424" duration="1174000" />
       <workItem from="1649525806661" duration="2017000" />
+      <workItem from="1649944110664" duration="1196000" />
+      <workItem from="1649945348995" duration="123000" />
+      <workItem from="1649945497552" duration="87000" />
+      <workItem from="1649945610701" duration="311000" />
     </task>
     <servers />
   </component>
@@ -100,6 +113,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="comint" />
-    <option name="LAST_COMMIT_MESSAGE" value="comint" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
 </project>

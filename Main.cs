@@ -1,13 +1,13 @@
 ﻿using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Diagnostics;
-using System;
-using System.IO;
 using System.Threading;
+using System.IO;
+using System;
 
 namespace Alonka;
 
-public partial class Form1 : Form
+public partial class Main : Form
 {
     // Registration DLL
     [DllImport("ntdll.dll", SetLastError = true)]
@@ -22,7 +22,7 @@ public partial class Form1 : Form
     private static extern bool WriteFile(IntPtr hfile, byte[] lpBuffer, uint nNumberOfBytesToWrite,
         out uint lpNumberBytesWritten, IntPtr lpOverlapped);
         
-    public Form1()
+    public Main()
     {
         InitializeComponent();
     }
@@ -84,5 +84,11 @@ public partial class Form1 : Form
     private void button6_Click(object sender, EventArgs e)
     {
         new Thread(Effect.GDI_payloads).Start();
+    }
+
+    private void sms_Click(object sender, EventArgs e)
+    {
+        var popup = new Popup();
+        new Thread(() => popup.ShowDialog()).Start();
     }
 }

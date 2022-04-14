@@ -1,12 +1,12 @@
-﻿using System;
-using System.Threading;
+﻿using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Threading;
 using System.Drawing;
-using System.Runtime.InteropServices;
+using System;
 
 namespace Alonka;
 
-public class Effect
+public static class Effect
 {
     // Registration DLL
     [DllImport("gdi32.dll", EntryPoint = "GdiAlphaBlend")]
@@ -159,8 +159,8 @@ public class Effect
             hdc = GetWindowDC(hwnd);
             BitBlt(hdc, 0, 0, x, y, hdc, 0, 0, TernaryRasterOperations.Notsrccopy);
             DeleteDC(hdc);
-            int posX = Cursor.Position.X;
-            int posY = Cursor.Position.Y;
+            var posX = Cursor.Position.X;
+            var posY = Cursor.Position.Y;
             desktop = GetDC(IntPtr.Zero);
             ReleaseDC(IntPtr.Zero, desktop);
             Thread.Sleep(50);
@@ -227,7 +227,7 @@ public class Effect
         }
         Clear_screen();
         gdiText = true;
-        for (int num = 0; num < 500; num++)
+        for (var num = 0; num < 500; num++)
         {
             hwnd = GetDesktopWindow();
             hdc = GetWindowDC(hwnd);
